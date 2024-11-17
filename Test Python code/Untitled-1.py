@@ -1,37 +1,26 @@
-"""
-This program calculates prices for custom house signs.
-"""
+AllowedVehicleList = ["Ford F-150", "Chevrolet Silverado", "Tesla CyberTruck", "Toyota Tundra", "Nissan Titan"]
 
-# Declare and initialize variables here.
-charge = 0.00
-numChars = 18
-color = "black"
-woodType = "oak"
+Selection1 = input("""
+********************************
+AutoCountry Vehicle Finder v0.1
+********************************
+Please enter the following number below from the following menu
 
-# Charge for this sign.
+1. Print all authorized vehicles
+2. Exit
 
-
-# Number of characters.
-if numChars > 5:
-    charge = 35 + (numChars - 5) * 4
-elif numChars > 0:
-    charge = 35
+Enter a number: """)
 
 
-# Color of characters.
-if color == "gold":
-    charge += 15 
-if color == "black":
-    charge += 0
-    
-# Type of wood.
-if woodType == "oak":
-    charge += 20
-if woodType == "pine":
-    charge += 0
-
-# Write assignment and if statements here as appropriate.
-
-# Output Charge for this sign.
-
-print("The charge for this sign is $" + str(charge))
+if int(Selection1) == 1:
+    print(f"""The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:
+ {AllowedVehicleList}""")
+elif int(Selection1) == 2:
+    print("Thank you for using the AutoCountry Vehicle Finder, GoodBye!")
+    quit()
+elif int(Selection1) <= 0:
+    print("Invalid input")
+    quit()
+elif int(Selection1) >= 3:
+    print("Invalid input")
+    quit()

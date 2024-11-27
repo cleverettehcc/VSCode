@@ -30,7 +30,6 @@ while True:
 
     Enter a number: """)
 
-
     if int(Selection1) == 1:
         print(f"""The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:
     {AllowedVehicleList}""")

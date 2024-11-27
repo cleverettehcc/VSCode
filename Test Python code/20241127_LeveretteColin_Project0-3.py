@@ -38,5 +38,5 @@ while True:
                 print (f"{Search} is an authorized vehicle")
                 quit()
         else:
-            print(f"{Search} is not an authorized vehicle. if you recieved this error, please check your spelling and try again.")
+            print(f"{Search} is not an authorized vehicle. If you recieved this error, please check your spelling and try again.")
             quit()

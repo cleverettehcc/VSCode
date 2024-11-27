@@ -29,10 +29,7 @@ while True:
     if int(Selection1) == 3:
         AddVehicle = input("Please enter the full name of the vehicle you would like to add: ") 
         AllowedVehicleList.append (AddVehicle)
-        print(f"you have added '{AddVehicle}' as an authorized vehicle")
-        
-        
-        
+        print(f"you have added '{AddVehicle}' as an authorized vehicle")      
         
     if int(Selection1) == 4:
         print  ("Please enter the full name of the vehicle you would like to REMOVE: ")
@@ -43,11 +40,7 @@ while True:
             AllowedVehicleList.remove (RemoveVehicle)
         elif Selection2 == "no":
             continue
-        
-        
-        
-        
-        
+                
     if int(Selection1) == 2:
         print(AllowedVehicleList)
         Search = input("Please enter the full vehicle name: ")

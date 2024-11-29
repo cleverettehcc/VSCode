@@ -60,7 +60,7 @@ with open("Project1.0.txt") as db:
 while True:
     Selection1 = input("""
     ********************************
-    AutoCountry Vehicle Finder v0.4
+    AutoCountry Vehicle Finder v1.0
     ********************************
     Please enter a number below from the following menu
 

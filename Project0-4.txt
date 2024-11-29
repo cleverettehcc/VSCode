@@ -1,0 +1,1 @@
+['ford f-150', 'chevrolet silverado', 'tesla cybertruck', 'toyota tundra', 'nissan titan']
